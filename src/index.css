@@ -30,3 +30,43 @@
             hsla(242, 74%, 61%, 0.8)
     )!important;
 }
+
+.skill-card {
+    position: relative;
+    z-index: 1;
+    transition: transform 0.5s ease-in-out;
+
+    &:hover {
+        z-index: 2;
+        transform: scale(1.4);
+    }
+}
+
+.nav-item {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-item:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000; /* Set your desired underline color */
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+    transform: translateX(0%); /* Center the underline */
+}
+
+.nav-item:hover:after,
+.nav-item.active:after {
+    width: 100%;
+    left: 0; /* Expand from the middle */
+}
+
+
+

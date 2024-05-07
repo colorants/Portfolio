@@ -17,14 +17,10 @@ const About = () => {
                 <p>Hi. I'm Viggo nice to meet you. Please take a look around.</p>
             </div>
             <div >
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit
-                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident,
-                    sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <p>I am a student at the Hogeschool Rotterdam and following Creative Media & Game Technoglogies.
+                Here we learn web development, make apps and get involved with a lot of new technologies, basically everything that has to do with the internet. After 4 years
+                we have completed the course and we can call our self Creative Developers. On this website I will show my
+                projects that I have developed in my years at CMGT. In my free time I like to play games and work on / drive cars.</p>
             </div>
         </div>
         </div>
